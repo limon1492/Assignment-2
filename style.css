@@ -4,6 +4,10 @@
 
 body {
     font-family: "Quicksand", serif; 
+    background-image: url(assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .body {
@@ -304,6 +308,11 @@ body {
 
 .footer-education {
     width: 400px;
+}
+.img-icons{
+   width:95px ;
+   height: 125px;
+  
 }
 
 /* .about{
