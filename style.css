@@ -4,17 +4,19 @@
 
 body {
     font-family: "Quicksand", serif; 
-    background-image: url(assets/bg.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    
 }
 
 .body {
+   
     max-width: 1180px;
     margin: 0 auto;
 }
-
+.background-images{
+    background-image: url(assets/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 /* sherd style */
 .display-flex {
@@ -288,7 +290,7 @@ body {
 }
 
 .footer-title {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     font-weight: bold;
     color: #FFFFFF;
 }
@@ -310,9 +312,10 @@ body {
     width: 400px;
 }
 .img-icons{
-   width:95px ;
-   height: 125px;
   
+}
+.icon-img{
+    align-items: center;
 }
 
 /* .about{
@@ -410,7 +413,10 @@ body {
     .footer {
         padding: 30px;
         flex-direction: column;
-        margin-bottom: 800px;
+        /* margin-bottom: 800px ; */
+    }
+    .footer-education{
+        width: 100%;
     }
 
 }
