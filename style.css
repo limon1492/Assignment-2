@@ -12,6 +12,9 @@ body {
     max-width: 1180px;
     margin: 0 auto;
 }
+.background-linear{
+    /* background-image: url(assets/bg.png),linear-gradient(90deg, red,transparent); */
+}
 .background-images{
     background-image: url(assets/bg.png);
     background-position: center;
@@ -154,7 +157,16 @@ body {
     box-shadow: 0px 0px 28px 1px rgba(0, 0, 0, 0.05);
     text-align: center;
     border-radius: 18px;
+    background: linear-gradient(176deg, #cac8805e, transparent);
 }
+.skill:first-child {
+    background: linear-gradient(176deg, #0162ff2e, transparent);
+  }
+  .skill:last-child {
+    background: linear-gradient(176deg, #c05fdb3e, transparent);
+  }
+  
+
 
 .skill-title {
     font-size: 1.5rem;
@@ -246,14 +258,19 @@ body {
     /* padding: 20px 37px 28px 37px; */
 }
 
+
 .btn {
     border-radius: 48px;
     font-size: 1rem;
     color: white;
     padding: 10px 20px;
-  
-    border: 1px solid #95B226;
-    background-color: #95B226;
+    margin: -27px 0px 0px 10px;
+    border: 1px solid #95b226;
+    background-color: #95b226;
+    position: absolute;
+    display: flex;
+    border: none;
+
 }
 
 .btn-1 {
