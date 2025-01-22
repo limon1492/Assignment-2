@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+body{
+    font-family: "Quicksand", serif;
+ border: 2px solid ;
+
+}
 .body {
-    max-width: 1440px;
-    margin: 60px 160px 80px 160px;
+    max-width: 1100px;
+  
+    margin: 0 auto;
+}
+*{
+     /* margin: 0; */
+    padding: 0; 
 }
 
 /* sherd style */
@@ -53,8 +67,8 @@
     font-weight: bold;
     color: #000000;
     text-align: center;
-    /* margin-top: 60px;
-    margin-bottom: 80px; */
+      /* margin-top: 60px;
+     margin-bottom: 80px;    */
 }
 
 
@@ -80,14 +94,19 @@
 .nav-link {
     text-decoration: none;
 }
-
+.bars{
+    display: none;
+}
 /* banner-styles */
 .banner {
     gap: 50px;
+    align-items: center;
 }
 
 .banner-container {
-    /* width: 640px; */
+    width: 640px;
+    /* padding: 24px 0; */
+    gap: 24px;
 }
 
 .banner-title {
@@ -253,5 +272,77 @@
 } */
 .list-item {
     list-style: none;
+    line-height: 30px;
 
+}
+/* media queary */
+
+@media screen and (max-width:578px) {
+    .brand-title h2 {
+        display: none;
+    }
+    ul.nav-links{
+        display: none;
+    }
+    button.btn-primary {
+        display: none;
+    }
+    .body {
+        width: 100%;
+    }
+    .banner {
+        gap: 50px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .bars{
+        display:block;
+        margin-right: 10px;
+        font-size: 30px;
+    }
+    .banner-img {
+        width: 100%;
+    }
+    .banner-container {
+        width: 100%;
+        text-align: center;
+    }
+    .banner-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+    .stories-container{
+        text-align: center;
+        gap: 10px;
+    }
+    .stories{
+        display: none;
+    }
+    .stories-card {
+        width: 200px;
+        
+    }
+    .stories-card img {
+        width: 100%;
+    }
+    .footer-description {
+        width: 370px;
+    }
+    .icons{
+        display: none;
+    }
+    
+
+
+
+
+    .footer{
+        padding: 30px;
+        flex-direction: column;
+        margin-bottom: 800px;
+    }
+   
 }
