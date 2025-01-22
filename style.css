@@ -144,6 +144,26 @@ body {
     color: black;
 }
 
+/* animation styles */
+.contant{
+    animation: limon 15s linear infinite;
+}
+.animation{
+    font-size: 2rem;
+    font-weight: 600;
+    color: tomato;
+
+}
+@keyframes limon {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+    
+}
+
 .banner-img {}
 
 /* skills section styles */
@@ -257,7 +277,9 @@ body {
     color: #000000;
     /* padding: 20px 37px 28px 37px; */
 }
-
+.linear-bg{
+    background: linear-gradient(127deg, red ,transparent);
+}
 
 .btn {
     border-radius: 48px;
